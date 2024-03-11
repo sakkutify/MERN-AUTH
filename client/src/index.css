@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #f2f3f3;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #131313;
+}
+
+.Toastify__toast--error {
+  border: 1px solid #eb5757;
+  border-radius: 50px !important;
+  background: #fae1e2 !important;
+}
+
+.Toastify__toast--success {
+  border: 1px solid #3a9ea5 !important;
+  border-radius: 50px !important;
+  background: #f0f9fa !important;
+}
+
+.Toastify__toast-body {
+  color: #444c63;
+  font-size: 14px !important;
+  font-family: "DM Sans", sans-serif !important;
+  margin-left: 10px !important;
+}
+
+.Toastify__close-button {
+  align-self: center !important;
+  padding-right: 5px !important;
+  color: #222222 !important;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+input {
+  height: 45px;
+  outline: 1.5px solid #d9d9d9;
+  padding: 0 8px;
+  border-radius: 2px;
+}
+input:focus {
+  outline: 2px solid #4c84f5;
+}
